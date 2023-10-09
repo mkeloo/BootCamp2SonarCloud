@@ -1,6 +1,6 @@
 /* Import Sequalize and other libraires */
 //Syntax for importing ES Modules - https://www.geeksforgeeks.org/how-to-use-an-es6-import-in-node-js/
-import { Sequelize, Model, DataTypes } from '@sequelize/core';
+import { Sequelize } from '@sequelize/core';
 
 //imports dontenv module and allows us to access stored environment variables stored in .env file
 import 'dotenv/config';

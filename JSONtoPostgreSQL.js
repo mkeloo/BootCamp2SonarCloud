@@ -2,7 +2,7 @@
   Import modules/files you may need to correctly run the script. 
   Make sure to save your DB's uri in the config file, then import it using `import` statements so that we can ensure we are using ES6 modules 
  */
-import { Sequelize, Model, DataTypes, QueryTypes, sql } from '@sequelize/core';
+import { Sequelize } from '@sequelize/core';
 
 //imports dontenv module and allows us to access stored environment variables stored in .env file - See https://www.npmjs.com/package/dotenv
 import 'dotenv/config';

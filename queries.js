@@ -1,4 +1,4 @@
-import { Sequelize, Model, DataTypes, QueryTypes, sql } from '@sequelize/core';
+import { Sequelize } from '@sequelize/core';
 
 //imports dontenv module and allows us to access stored environment variables stored in .env file
 import 'dotenv/config';
